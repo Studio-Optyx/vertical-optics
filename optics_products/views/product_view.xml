@@ -5,7 +5,7 @@
         <field name="inherit_id" ref="product.product_template_only_form_view" />
         <field name="arch" type="xml">
         <xpath expr="//page[@name='variants']" position="before">
-            <page name="features" string="Características" groups="product.group_product_variant">
+            <page name="features" string="Características" groups="product.group_product_features">
                 <group>           
                     <field name="brand" string="Marca"/>
                     <field name="size" string="Medidas"/>
