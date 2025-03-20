@@ -5,7 +5,13 @@
         <field name="inherit_id" ref="product.product_template_only_form_view" />
         <field name="arch" type="xml">
         <field name="categ_id" position="after">
+            <field name="brand" string="Marca"/>
             <field name="size" string="Medidas"/>
+            <field name="eye_size" string="Calibre" options="{'no_create': True}"/>
+            <field name="material" string="Material" options="{'no_create': True}"/>
+            <field name="shape" string="Forma" options="{'no_create': True}"/>
+            <field name="style" string="Estilo" options="{'no_create': True}"/>
+            <field name="features" string="Características" options="{'no_create': True}"/>
         </field>
         </field>
     </record>
