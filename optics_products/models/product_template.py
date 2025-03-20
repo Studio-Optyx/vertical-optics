@@ -31,7 +31,7 @@ class ProductTemplate(models.Model):
         string="Features",
     )
 
-    materials = fields.Selection(
+    material = fields.Selection(
         selection=[
             ("acetate", "Acetate"),
             ("combination", "Combination"),
