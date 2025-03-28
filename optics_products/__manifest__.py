@@ -14,6 +14,7 @@
     ],
     "data": [
         "views/product_view.xml",
-    ],
+        "views/product_template_attribute_value_view.xml",
+        ],
     "installable": True,
 }
