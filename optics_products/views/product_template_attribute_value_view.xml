@@ -1,0 +1,8 @@
+<odoo>
+    <!-- Definición de la acción de ventana -->
+    <record id="action_product_template_attribute_value" model="ir.actions.act_window">
+        <field name="name">Product Template Attribute Values</field>
+        <field name="res_model">product.template.attribute.value</field>
+        <field name="view_mode">list,form</field>
+    </record>
+</odoo>
